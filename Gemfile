@@ -9,6 +9,7 @@ gem 'jbuilder', '~> 2.0'
 
 gem 'twitter-bootswatch-rails', '~> 3.3.4'
 gem 'twitter-bootswatch-rails-helpers'
+gem 'therubyracer'
 
 group :development, :test do
   gem 'byebug'
@@ -16,7 +17,6 @@ end
 group :development do
   gem 'web-console', '~> 2.0'
   gem 'spring'
-  gem 'therubyracer'
 end
 gem 'bootstrap-sass'
 gem 'devise'
